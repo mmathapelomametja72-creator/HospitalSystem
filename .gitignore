@@ -1,0 +1,18 @@
+# Maven and Java build output
+target/
+*.class
+*.jar
+
+# IDE and machine-specific files
+.idea/
+.vscode/
+*.iml
+nbproject/private/
+
+# Local configuration and secrets
+.env
+*.local
+
+# Operating system files
+.DS_Store
+Thumbs.db

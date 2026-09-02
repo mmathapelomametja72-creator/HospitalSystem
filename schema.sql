@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS hospital;
+USE hospital;
+
+CREATE TABLE IF NOT EXISTS patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(150) NOT NULL,
+    next_of_kin VARCHAR(150) NOT NULL,
+    address VARCHAR(255) NOT NULL
+);
